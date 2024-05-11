@@ -345,7 +345,7 @@ class DefaultStyles {
         underline: const TextStyle(decoration: TextDecoration.underline),
         strikeThrough: const TextStyle(decoration: TextDecoration.lineThrough),
         inlineCode: InlineCodeStyle(
-          backgroundColor: Colors.grey.shade100,
+          backgroundColor: Colors.black87,
           radius: const Radius.circular(3),
           style: inlineCodeStyle,
           header1: inlineCodeStyle.copyWith(
@@ -387,7 +387,7 @@ class DefaultStyles {
           const VerticalSpacing(6, 2),
           BoxDecoration(
             border: Border(
-              left: BorderSide(width: 4, color: Colors.grey.shade300),
+              left: BorderSide(width: 4, color: Colors.lightGreenAccent),
             ),
           ),
         ),
