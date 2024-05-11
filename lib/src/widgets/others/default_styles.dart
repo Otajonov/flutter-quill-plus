@@ -393,7 +393,7 @@ class DefaultStyles {
         ),
         code: DefaultTextBlockStyle(
             TextStyle(
-              color: Colors.blue.shade900.withOpacity(0.9),
+              color: Theme.of(context).brightness == Brightness.dark ? Colors.white : Colors.blue,
               fontFamily: fontFamily,
               fontSize: 13,
               height: 1.15,
@@ -401,7 +401,7 @@ class DefaultStyles {
             baseSpacing,
             const VerticalSpacing(0, 0),
             BoxDecoration(
-              color: Colors.grey.shade50,
+              color: Theme.of(context).brightness == Brightness.dark ? Colors.blueGrey.withOpacity(.5) : Colors.blueGrey.withOpacity(.1),
               borderRadius: BorderRadius.circular(2),
             )),
         indent: DefaultTextBlockStyle(
