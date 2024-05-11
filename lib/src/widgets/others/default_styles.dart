@@ -345,7 +345,7 @@ class DefaultStyles {
         underline: const TextStyle(decoration: TextDecoration.underline),
         strikeThrough: const TextStyle(decoration: TextDecoration.lineThrough),
         inlineCode: InlineCodeStyle(
-          backgroundColor: Colors.black87,
+          backgroundColor: Theme.of(context).brightness == Brightness.dark ? Colors.blueGrey.withOpacity(.5) : Colors.blueGrey.withOpacity(.1),
           radius: const Radius.circular(3),
           style: inlineCodeStyle,
           header1: inlineCodeStyle.copyWith(
