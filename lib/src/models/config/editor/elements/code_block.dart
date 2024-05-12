@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart' show immutable;
 @immutable
 class QuillEditorCodeBlockElementOptions extends Equatable {
   const QuillEditorCodeBlockElementOptions({
-    this.enableLineNumbers = true,
+    this.enableLineNumbers = false,
   });
 
   /// If you want line numbers in the code block, please pass true
